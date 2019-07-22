@@ -1,0 +1,58 @@
+body {
+    font: 20px 'Righteous', cursive;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+  
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+.bg-1 { 
+    background-color: #e0908f; /* Green */
+    color: #ffffff;
+}
+.bg-2 { 
+    background-color: #57769bc9; /* Dark Blue */
+    color: #ffffff;
+}
+.bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+.bg-4 { 
+    background-color: #57769b;
+    color: #ffffff;
+}
+.bg-5 { 
+    background-color: #e0908f8f;
+    color: #555555;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+img[src="img/me1.jpg"] {display:inline;}
+.full-width {width:100%;}
+.full-width:hover {
+    opacity: 0.7;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+  
+.navbar-nav li a:hover {
+    color: #ffd5e3 !important;
+}
+.me-image {
+    max-width: 300px;
+    width: 100%;
+}
+footer p a {
+    color: white;
+}
